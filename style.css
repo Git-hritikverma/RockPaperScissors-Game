@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size : px;
+    text-align: center;
+}
+.dark{
+    background-color: black;
+    color: aqua;
+}
+.light{
+    background-color: aqua;
+    color:black;
+}
+body{
+    background-color: aqua;
+}
+#navbar{
+    height:4rem;
+    width: 100%;
+    background-color: #081b31;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(185, 16%, 32%);
+        color: rgb(252, 221, 44);
+        height: 4rem;
+        width: 15rem;
+        border: 3px;
+        font-size: 2rem;
+}
+.mode{
+    display: flex;
+    align-self: left;
+}
+.logo{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 16%, 32%);
+    color: rgb(252, 221, 44);
+    height: 4rem;
+    width: 10rem;
+    border: 3px;
+    font-size: 2rem;
+
+}
+#title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(185, 16%, 32%);
+    color: rgb(252, 221, 44);
+    height: 4rem;
+    width: 25rem;
+    border: 3px;
+    font-size: 2rem;
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.choice:hover{
+    opacity: .5rem;
+    cursor: pointer;
+    background-color: #081b31;
+}
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    gap: 5rem;
+
+}
+#UserScore , #CompScore{
+    font-size: 4rem;
+}
+#msg{background-color: #081b31;
+    color: white;
+   font-size: 2rem;
+   margin-top: 6rem;
+   display: inline;
+   padding: 1rem;
+   border-radius: 1rem;
+   border: 1px solid black;
+    
+
+      
+}    
+.msg-container{
+    margin-top: 4rem;
+    
+}
